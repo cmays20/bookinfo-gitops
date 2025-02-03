@@ -11,3 +11,5 @@ resources:
   - reviews-service.yaml
   - reviews-v2.yaml
   - reviews-v3.yaml
+  - gateway.yaml
+  - virtualservice.yaml
