@@ -13,3 +13,4 @@ resources:
   - reviews-v3.yaml
   - gateway.yaml
   - virtualservice.yaml
+  - route.yaml
