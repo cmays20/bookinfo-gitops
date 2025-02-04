@@ -11,7 +11,7 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-        - "bookinfo.apps.mays-homelab.cjmays.com"
+        - "bookinfo.cjmays.com"
       tls:
         mode: SIMPLE
         credentialName: bookinfo-certs-letsencrypt
