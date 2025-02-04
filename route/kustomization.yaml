@@ -1,2 +1,5 @@
+namespace: istio-ingressgateway
+
 resources:
   - route.yaml
+  - bookinfo-certificate.yaml

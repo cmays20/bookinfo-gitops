@@ -2,9 +2,8 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: bookinfo-route
-  namespace: istio-ingressgateway
 spec:
-  host: bookinfo.apps.mays-homelab.cjmays.com
+  host: bookinfo.cjmays.com
   path: /
   to:
     kind: Service
@@ -13,6 +12,6 @@ spec:
   port:
     targetPort: http2
   tls:
-    termination: edge
+    termination: passthrough
     insecureEdgeTerminationPolicy: Redirect
   wildcardPolicy: None
