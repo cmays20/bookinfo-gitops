@@ -4,7 +4,6 @@ metadata:
   name: bookinfo-route
 spec:
   host: bookinfo.cjmays.com
-  path: /
   to:
     kind: Service
     name: istio-ingressgateway
